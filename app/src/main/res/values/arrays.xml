@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="avatar_colors">
+        <item>@color/avatar1</item>
+        <item>@color/avatar2</item>
+        <item>@color/avatar3</item>
+        <item>@color/avatar4</item>
+        <item>@color/avatar5</item>
+        <item>@color/avatar6</item>
+        <item>@color/avatar7</item>
+        <item>@color/avatar8</item>
+        <item>@color/avatar9</item>
+        <item>@color/avatar10</item>
+        <item>@color/avatar11</item>
+        <item>@color/avatar12</item>
+        <item>@color/avatar13</item>
+        <item>@color/avatar14</item>
+        <item>@color/avatar15</item>
+        <item>@color/avatar16</item>
+    </integer-array>
+</resources>

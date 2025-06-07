@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Animation Durations -->
+    <integer name="animation_duration_short">150</integer>
+    <integer name="animation_duration_medium">300</integer>
+    <integer name="animation_duration_long">500</integer>
+
+    <!-- RecyclerView -->
+    <integer name="recycler_view_cache_size">20</integer>
+
+    <!-- Network -->
+    <integer name="network_timeout">30</integer>
+    <integer name="max_retry_attempts">3</integer>
+
+    <!-- Cryptography -->
+    <integer name="rsa_key_size">2048</integer>
+    <integer name="aes_key_size">256</integer>
+
+    <!-- Stars Animation -->
+    <integer name="star_count">100</integer>
+    <integer name="star_animation_duration_min">2000</integer>
+    <integer name="star_animation_duration_max">5000</integer>
+</resources>

@@ -1,0 +1,324 @@
+<!-- مسیر: app/src/main/res/drawable/gradient_background.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:startColor="@color/gradientStart"
+        android:endColor="@color/gradientEnd"
+        android:type="linear" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/chat_background.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<gradient
+    android:angle="135"
+    android:startColor="@color/gradientChatStart"
+    android:endColor="@color/gradientChatEnd"
+    android:type="linear" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/bubble_sent.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="@color/bubbleSent" />
+<corners
+    android:topLeftRadius="18dp"
+    android:topRightRadius="4dp"
+    android:bottomLeftRadius="18dp"
+    android:bottomRightRadius="18dp" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/bubble_received.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="@color/bubbleReceived" />
+<stroke
+    android:width="1dp"
+    android:color="@color/inputBorder" />
+<corners
+    android:topLeftRadius="4dp"
+    android:topRightRadius="18dp"
+    android:bottomLeftRadius="18dp"
+    android:bottomRightRadius="18dp" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_red.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<solid android:color="@color/colorError" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_green.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<solid android:color="@color/colorSuccess" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_yellow.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<solid android:color="@color/colorWarning" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_gray.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<solid android:color="@color/colorSecondary" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_badge.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<solid android:color="@color/colorError" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/circle_avatar_background.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="oval">
+<gradient
+    android:angle="45"
+    android:startColor="@color/colorPrimary"
+    android:endColor="@color/colorPrimaryDark"
+    android:type="linear" />
+</shape>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_star.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,17.27L18.18,21l-1.64,-7.03L22,9.24l-7.19,-0.61L12,2 9.19,8.63 2,9.24l5.46,4.73L5.82,21z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_person.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorPrimary">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,12c2.21,0 4,-1.79 4,-4s-1.79,-4 -4,-4 -4,1.79 -4,4 1.79,4 4,4zM12,14c-2.67,0 -8,1.34 -8,4v2h16v-2c0,-2.66 -5.33,-4 -8,-4z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_security.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorAccent">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11C15.4,11 16,11.4 16,12V16C16,16.6 15.6,17 15,17H9C8.4,17 8,16.6 8,16V12C8,11.4 8.4,11 9,11V10C9,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.2,9.2 10.2,10V11H13.8V10C13.8,9.2 12.8,8.2 12,8.2Z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_key.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorAccent">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M7,14A3,3 0 0,1 10,17A3,3 0 0,1 7,20A3,3 0 0,1 4,17A3,3 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_shield.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorAccent">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_search.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorPrimary">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M15.5,14h-0.79l-0.28,-0.27C15.41,12.59 16,11.11 16,9.5 16,5.91 13.09,3 9.5,3S3,5.91 3,9.5 5.91,16 9.5,16c1.61,0 3.09,-0.59 4.23,-1.57l0.27,0.28v0.79l5,4.99L20.49,19l-4.99,-5zM9.5,14C7.01,14 5,11.99 5,9.5S7.01,5 9.5,5 14,7.01 14,9.5 11.99,14 9.5,14z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_logout.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorError">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M17,7l-1.41,1.41L18.17,11H8v2h10.17l-2.58,2.58L17,17l5,-5zM4,5h8V3H4c-1.1,0 -2,0.9 -2,2v14c0,1.1 0.9,2 2,2h8v-2H4V5z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_copy.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorPrimary">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M16,1L4,1c-1.1,0 -2,0.9 -2,2v14h2L4,3h12L16,1zM19,5L8,5c-1.1,0 -2,0.9 -2,2v14c0,1.1 0.9,2 2,2h11c1.1,0 2,-0.9 2,-2L21,7c0,-1.1 -0.9,-2 -2,-2zM19,21L8,21L8,7h11v14z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_refresh.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M17.65,6.35C16.2,4.9 14.21,4 12,4c-4.42,0 -7.99,3.58 -7.99,8s3.57,8 7.99,8c3.73,0 6.84,-2.55 7.73,-6h-2.08c-0.82,2.33 -3.04,4 -5.65,4 -3.31,0 -6,-2.69 -6,-6s2.69,-6 6,-6c1.66,0 3.14,0.69 4.22,1.78L13,11h7V4l-2.35,2.35z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_add_chat.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M20,4L4,4c-1.1,0 -1.99,0.9 -1.99,2L2,18c0,1.1 0.9,2 2,2h16c1.1,0 2,-0.9 2,-2L22,6c0,-1.1 -0.9,-2 -2,-2zM20,8l-8,5 -8,-5L4,6l8,5 8,-5v2z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_chat_empty.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorSecondaryLight">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M20,2L4,2c-1.1,0 -2,0.9 -2,2v12c0,1.1 0.9,2 2,2h4l4,4 4,-4h4c1.1,0 2,-0.9 2,-2L22,4c0,-1.1 -0.9,-2 -2,-2zM20,16h-4.17L12,19.83 8.17,16L4,16L4,4h16v12z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_arrow_back.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_more_vert.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,10c-1.1,0 -2,0.9 -2,2s0.9,2 2,2 2,-0.9 2,-2 -0.9,-2 -2,-2zM12,16c-1.1,0 -2,0.9 -2,2s0.9,2 2,2 2,-0.9 2,-2 -0.9,-2 -2,-2z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_attach_file.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorSecondary">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M2,12.5C2,9.46 4.46,7 7.5,7H18c2.21,0 4,1.79 4,4s-1.79,4 -4,4H9.5C8.12,15 7,13.88 7,12.5S8.12,10 9.5,10H17v2H9.41c-0.55,0 -0.55,1 0,1H18c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2H7.5C5.57,9 4,10.57 4,12.5S5.57,16 7.5,16H17v2H7.5C4.46,18 2,15.54 2,12.5z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_send.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M2.01,21L23,12 2.01,3 2,10l15,2 -15,2z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_chat_bubble.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorSecondaryLight">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M9,14H7v2h2V14zM13,14h-2v2h2V14zM17,14h-2v2h2V14zM20,2H4C2.9,2 2,2.9 2,4v12c0,1.1 0.9,2 2,2h4l4,4l4-4h4c1.1,0 2,-0.9 2,-2V4C22,2.9 21.1,2 20,2z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_check.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="16dp"
+android:height="16dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@color/colorSecondaryLight">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z" />
+</vector>
+
+    <!-- مسیر: app/src/main/res/drawable/ic_secure_messenger_logo.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="120dp"
+android:height="120dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="@android:color/white">
+<path
+    android:fillColor="@android:color/white"
+    android:pathData="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11C15.4,11 16,11.4 16,12V16C16,16.6 15.6,17 15,17H9C8.4,17 8,16.6 8,16V12C8,11.4 8.4,11 9,11V10C9,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.2,9.2 10.2,10V11H13.8V10C13.8,9.2 12.8,8.2 12,8.2Z" />
+</vector>

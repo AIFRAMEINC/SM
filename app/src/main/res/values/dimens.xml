@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins and Paddings -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+
+    <!-- Button Heights -->
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="button_height_medium">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">12dp</dimen>
+    <dimen name="corner_radius_xlarge">16dp</dimen>
+    <dimen name="corner_radius_round">24dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">6dp</dimen>
+    <dimen name="elevation_xlarge">8dp</dimen>
+
+    <!-- Avatar Sizes -->
+    <dimen name="avatar_size_small">32dp</dimen>
+    <dimen name="avatar_size_medium">48dp</dimen>
+    <dimen name="avatar_size_large">64dp</dimen>
+    <dimen name="avatar_size_xlarge">80dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+
+    <!-- List Item Heights -->
+    <dimen name="list_item_height_small">48dp</dimen>
+    <dimen name="list_item_height_medium">56dp</dimen>
+    <dimen name="list_item_height_large">72dp</dimen>
+
+    <!-- Message Bubble -->
+    <dimen name="message_bubble_radius">18dp</dimen>
+    <dimen name="message_bubble_margin">8dp</dimen>
+    <dimen name="message_bubble_padding">12dp</dimen>
+
+    <!-- Progress Bar -->
+    <dimen name="progress_bar_size">48dp</dimen>
+    <dimen name="progress_bar_stroke_width">4dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">SecureMessenger</string>
+    <string name="app_logo">لوگو برنامه</string>
+
+    <!-- Registration -->
+    <string name="registration_title">ثبت‌نام در سیستم</string>
+    <string name="registration_subtitle">پیام‌رسان امن با رمزنگاری سه‌لایه</string>
+    <string name="registration_info">کلیدهای رمزنگاری شما به صورت خودکار تولید می‌شوند و در دستگاه شما ذخیره می‌شوند.</string>
+    <string name="username_hint">نام کاربری</string>
+    <string name="register_button">ثبت‌نام</string>
+    <string name="generating_keys">در حال تولید کلیدها...</string>
+
+    <!-- Username Validation -->
+    <string name="username_required">نام کاربری الزامی است</string>
+    <string name="username_too_short">نام کاربری باید حداقل ۲ کاراکتر باشد</string>
+    <string name="username_too_long">نام کاربری نباید بیشتر از ۵۰ کاراکتر باشد</string>
+    <string name="username_invalid_characters">فقط حروف انگلیسی، اعداد، خط تیره و فاصله مجاز است</string>
+
+    <!-- Security Features -->
+    <string name="security_features_title">ویژگی‌های امنیتی</string>
+    <string name="feature_encryption">رمزنگاری سه‌لایه (RSA + ECC + DH)</string>
+    <string name="feature_keys">تولید خودکار کلیدهای امنیتی</string>
+    <string name="feature_privacy">حفظ حریم خصوصی کامل</string>
+
+    <!-- Main Screen -->
+    <string name="welcome_user">خوش آمدید</string>
+    <string name="welcome_user_format">خوش آمدید، %s</string>
+    <string name="client_id_label">شناسه شما:</string>
+    <string name="copy_client_id">کپی شناسه</string>
+    <string name="client_id_copied">شناسه کپی شد!</string>
+    <string name="find_client">جستجوی کاربر</string>
+    <string name="logout">خروج</string>
+    <string name="recent_chats">چت‌های اخیر</string>
+    <string name="refresh_chats">بازخوانی</string>
+    <string name="new_chat">چت جدید</string>
+
+    <!-- Connection Status -->
+    <string name="connected">متصل</string>
+    <string name="connecting">در حال اتصال</string>
+    <string name="reconnecting">اتصال مجدد</string>
+    <string name="disconnected">قطع شده</string>
+    <string name="connection_error">خطا در اتصال</string>
+
+    <!-- Empty States -->
+    <string name="no_chats_yet">هنوز چتی ندارید</string>
+    <string name="find_client_to_start">برای شروع، یک کاربر پیدا کنید</string>
+    <string name="start_conversation">شروع گفتگو</string>
+    <string name="secure_encrypted_chat">گفتگوی امن و رمزگذاری شده</string>
+
+    <!-- Find Client Dialog -->
+    <string name="find_client_title">جستجوی کاربر</string>
+    <string name="find_client_description">شناسه کاربری که می‌خواهید با او چت کنید را وارد کنید.</string>
+    <string name="client_id_hint">شناسه کاربر (Client ID)</string>
+    <string name="client_id_required">شناسه کاربر الزامی است</string>
+    <string name="search">جستجو</string>
+    <string name="cancel">لغو</string>
+
+    <!-- Chat Screen -->
+    <string name="unknown_user">کاربر ناشناس</string>
+    <string name="status_online">آنلاین</string>
+    <string name="status_offline">آفلاین</string>
+    <string name="back">بازگشت</string>
+    <string name="menu">منو</string>
+    <string name="type_message">پیام بنویسید...</string>
+    <string name="send_message">ارسال پیام</string>
+    <string name="attach_file">ضمیمه فایل</string>
+    <string name="typing_indicator">در حال تایپ...</string>
+
+    <!-- Messages -->
+    <string name="sample_message">پیام نمونه</string>
+    <string name="now">الان</string>
+    <string name="message_delivered">پیام تحویل داده شد</string>
+    <string name="message_read">پیام خوانده شد</string>
+    <string name="encrypted_message">🔒 رمزنگاری شده</string>
+    <string name="no_messages_yet">هنوز پیامی نیست</string>
+
+    <!-- Logout -->
+    <string name="logout_confirmation_title">خروج از حساب کاربری</string>
+    <string name="logout_confirmation_message">آیا می‌خواهید از حساب کاربری خود خارج شوید؟</string>
+
+    <!-- General -->
+    <string name="loading">در حال بارگذاری...</string>
+    <string name="not_available">در دسترس نیست</string>
+    <string name="error">خطا</string>
+    <string name="success">موفقیت</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="close">بستن</string>
+    <string name="ok">تأیید</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+
+    <!-- Network Messages -->
+    <string name="network_error">خطا در اتصال شبکه</string>
+    <string name="server_error">خطا در سرور</string>
+    <string name="connection_timeout">زمان اتصال به پایان رسید</string>
+    <string name="check_internet_connection">اتصال اینترنت خود را بررسی کنید</string>
+
+    <!-- Validation Messages -->
+    <string name="field_required">این فیلد الزامی است</string>
+    <string name="invalid_input">ورودی نامعتبر</string>
+    <string name="operation_failed">عملیات ناموفق بود</string>
+
+    <!-- File Operations -->
+    <string name="file_selected">فایل انتخاب شد</string>
+    <string name="file_upload_failed">بارگذاری فایل ناموفق بود</string>
+    <string name="file_download_failed">دانلود فایل ناموفق بود</string>
+    <string name="file_too_large">فایل خیلی بزرگ است</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">مجوز مورد نیاز است</string>
+    <string name="storage_permission_required">برای انتخاب فایل، مجوز دسترسی به فایل‌ها لازم است</string>
+    <string name="notification_permission_required">برای دریافت اعلان‌ها، مجوز نوتیفیکیشن لازم است</string>
+
+    <!-- Security -->
+    <string name="encryption_in_progress">در حال رمزگذاری...</string>
+    <string name="decryption_in_progress">در حال رمزگشایی...</string>
+    <string name="encryption_failed">رمزگذاری ناموفق بود</string>
+    <string name="decryption_failed">رمزگشایی ناموفق بود</string>
+    <string name="keys_generated_successfully">کلیدها با موفقیت تولید شدند</string>
+    <string name="key_generation_failed">تولید کلید ناموفق بود</string>
+</resources>

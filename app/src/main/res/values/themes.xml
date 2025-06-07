@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.SecureMessenger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccentLight</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimaryDark</item>
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/cardBackground</item>
+        <item name="colorOnSurface">@color/textColorPrimary</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <!-- Material Components customization -->
+        <item name="materialButtonStyle">@style/Widget.SecureMessenger.Button</item>
+        <item name="textInputStyle">@style/Widget.SecureMessenger.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Widget.SecureMessenger.CardView</item>
+        <item name="toolbarStyle">@style/Widget.SecureMessenger.Toolbar</item>
+
+        <!-- Window properties -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="Widget.SecureMessenger.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Custom Outlined Button Style -->
+    <style name="Widget.SecureMessenger.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Custom Text Button Style -->
+    <style name="Widget.SecureMessenger.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Custom TextInputLayout Style -->
+    <style name="Widget.SecureMessenger.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+    </style>
+
+    <!-- Custom CardView Style -->
+    <style name="Widget.SecureMessenger.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBackground</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardMaxElevation">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Custom Toolbar Style -->
+    <style name="Widget.SecureMessenger.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@color/colorSecondaryLight</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Custom FAB Style -->
+    <style name="Widget.SecureMessenger.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="tint">@android:color/white</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+
+    <!-- Custom Chip Style -->
+    <style name="Widget.SecureMessenger.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="chipStrokeColor">@color/colorPrimary</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">16dp</item>
+    </style>
+
+    <!-- Custom BottomSheet Style -->
+    <style name="Widget.SecureMessenger.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <!-- Animation Styles -->
+    <style name="Animation.SecureMessenger.Slide" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <!-- Typography Styles -->
+    <style name="TextAppearance.SecureMessenger.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SecureMessenger.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SecureMessenger.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.SecureMessenger.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.SecureMessenger.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/textColorTertiary</item>
+    </style>
+
+    <!-- Message Bubble Styles -->
+    <style name="Widget.SecureMessenger.MessageBubble.Sent">
+        <item name="android:background">@drawable/bubble_sent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginStart">64dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="Widget.SecureMessenger.MessageBubble.Received">
+        <item name="android:background">@drawable/bubble_received</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">64dp</item>
+    </style>
+
+    <!-- Loading Style -->
+    <style name="Widget.SecureMessenger.ProgressBar" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="indicatorColor">@color/colorPrimary</item>
+        <item name="trackColor">@color/colorPrimaryLight</item>
+        <item name="indicatorSize">48dp</item>
+        <item name="trackThickness">4dp</item>
+    </style>
+
+    <!-- Dialog Style -->
+    <style name="ThemeOverlay.SecureMessenger.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- Snackbar Style -->
+    <style name="Widget.SecureMessenger.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_margin">16dp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="actionTextColor">@android:color/white</item>
+    </style>
+
+    <!-- Switch Style -->
+    <style name="Widget.SecureMessenger.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="thumbTint">@color/colorPrimary</item>
+        <item name="trackTint">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- Ripple Effect -->
+    <style name="Widget.SecureMessenger.Ripple">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Full Screen Style -->
+    <style name="Theme.SecureMessenger.FullScreen" parent="Theme.SecureMessenger">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Splash Screen Style -->
+    <style name="Theme.SecureMessenger.Splash" parent="Theme.SecureMessenger.FullScreen">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

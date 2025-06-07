@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- مسیر: app/src/main/res/xml/network_security_config.xml -->
+<network-security-config>
+    <!-- تنظیمات عمومی امنیت شبکه -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- استفاده از CA های سیستم -->
+            <certificates src="system"/>
+            <!-- در صورت نیاز، می‌توان CA های سفارشی اضافه کرد -->
+            <!-- <certificates src="user"/> -->
+        </trust-anchors>
+    </base-config>
+
+    <!-- تنظیمات خاص برای دامنه سرور -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">indust.aiframe.org</domain>
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+
+        <!-- تنظیمات Certificate Pinning برای امنیت بیشتر -->
+        <pin-set expiration="2025-12-31">
+            <!-- SHA-256 hash of the certificate's public key -->
+            <!-- این مقادیر باید با گواهی واقعی سرور تطبیق داده شوند -->
+            <!-- برای دریافت fingerprint: openssl x509 -in certificate.crt -pubkey -noout | openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64 -->
+            <!-- <pin digest="SHA-256">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pin> -->
+        </pin-set>
+    </domain-config>
+
+    <!-- تنظیمات Debug (فقط در حالت debug) -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system"/>
+            <!-- اجازه استفاده از گواهی‌های خودساخته در debug -->
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

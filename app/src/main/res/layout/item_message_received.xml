@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- مسیر: app/src/main/res/layout/item_message_received.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="4dp">
+
+    <!-- Sender Avatar -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sender_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toTopOf="@id/message_container"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/avatar_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle_avatar_background"
+            android:gravity="center"
+            android:text="U"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Message Container -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/message_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="64dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sender_avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="280dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_received"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Sender Name (Optional) -->
+            <TextView
+                android:id="@+id/sender_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown_user"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="2dp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <!-- Message Text -->
+            <TextView
+                android:id="@+id/message_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_message"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="4dp"
+                tools:text="سلام! من خوبم، تو چطوری؟" />
+
+            <!-- Message Time -->
+            <TextView
+                android:id="@+id/message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/now"
+                android:textColor="@color/colorSecondary"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                tools:text="14:32" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Encryption Info (Optional) -->
+    <TextView
+        android:id="@+id/encryption_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/encrypted_message"
+        android:textColor="@color/colorSecondaryLight"
+        android:textSize="10sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/message_container"
+        app:layout_constraintStart_toStartOf="@id/message_container"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

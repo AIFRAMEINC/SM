@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#757575</color>
+    <color name="colorSecondaryDark">#424242</color>
+    <color name="colorSecondaryLight">#BDBDBD</color>
+
+    <!-- Accent Colors -->
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorAccentLight">#FFAB91</color>
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="backgroundColorDark">#303030</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackgroundDark">#424242</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textColorTertiary">#BDBDBD</color>
+    <color name="textColorInverse">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FF9800</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorInfo">#2196F3</color>
+
+    <!-- Connection Status Colors -->
+    <color name="statusConnected">#4CAF50</color>
+    <color name="statusConnecting">#FF9800</color>
+    <color name="statusDisconnected">#F44336</color>
+
+    <!-- Message Bubble Colors -->
+    <color name="bubbleSent">#2196F3</color>
+    <color name="bubbleSentDark">#1976D2</color>
+    <color name="bubbleReceived">#FFFFFF</color>
+    <color name="bubbleReceivedDark">#F5F5F5</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradientStart">#667eea</color>
+    <color name="gradientEnd">#764ba2</color>
+    <color name="gradientChatStart">#667eea</color>
+    <color name="gradientChatEnd">#f093fb</color>
+
+    <!-- Avatar Colors -->
+    <color name="avatar1">#F44336</color>
+    <color name="avatar2">#E91E63</color>
+    <color name="avatar3">#9C27B0</color>
+    <color name="avatar4">#673AB7</color>
+    <color name="avatar5">#3F51B5</color>
+    <color name="avatar6">#2196F3</color>
+    <color name="avatar7">#03A9F4</color>
+    <color name="avatar8">#00BCD4</color>
+    <color name="avatar9">#009688</color>
+    <color name="avatar10">#4CAF50</color>
+    <color name="avatar11">#8BC34A</color>
+    <color name="avatar12">#CDDC39</color>
+    <color name="avatar13">#FFEB3B</color>
+    <color name="avatar14">#FFC107</color>
+    <color name="avatar15">#FF9800</color>
+    <color name="avatar16">#FF5722</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#80000000</color>
+    <color name="lightTransparent">#40000000</color>
+
+    <!-- Chat Background -->
+    <color name="chatBackground">#ECE5DD</color>
+    <color name="chatBackgroundDark">#0D1117</color>
+
+    <!-- Input Colors -->
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="inputBorder">#E0E0E0</color>
+    <color name="inputFocused">#2196F3</color>
+</resources>
